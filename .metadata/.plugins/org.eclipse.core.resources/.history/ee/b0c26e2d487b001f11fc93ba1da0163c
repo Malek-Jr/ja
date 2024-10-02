@@ -1,0 +1,14 @@
+package TP3;
+
+class madate {
+
+	private int j ;
+	private int m ;
+	private int a ;
+	public madate (int a, int b,int c) { 
+		j = c ;
+		m = x ;
+		a = y;
+		}
+
+}

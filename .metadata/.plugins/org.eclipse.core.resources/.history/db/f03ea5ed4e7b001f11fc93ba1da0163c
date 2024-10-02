@@ -1,0 +1,15 @@
+package TP3;
+
+class madate {
+
+	private int jour ;
+	private int moins ;
+	private int annee ;
+	public madate (int a, int b,int c) { 
+		jour = a ;
+		moins = b ;
+		annee = c;
+		}
+	
+
+}

@@ -1,0 +1,31 @@
+package TP1;
+
+public class point {
+
+	class Point {
+		private char id ;
+		private double abs ;
+
+		// identifiant du point
+		// abscisse du point
+		public Point (char c, double x) { // constructeur
+		id = c ;
+		abs = x ;
+		}
+		public void affiche ()
+		{ System.out.println("a");}
+		public void translate (double dx)
+		{ abs += dx ; }
+		}
+		public class TestPoint {
+		public static void main (String args[]) {
+		Point a = new Point ('A', 2.5) ;
+		a.affiche() ;
+		Point b = new Point ('B', 5.25) ;
+		b.affiche() ;
+		b.translate(2.25) ;
+		b.affiche() ;
+		}
+		}
+
+}

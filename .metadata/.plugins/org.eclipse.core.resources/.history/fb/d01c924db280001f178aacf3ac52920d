@@ -1,0 +1,21 @@
+package ex3;
+
+public class ex3test {
+
+	public static void main(String[] args) {
+		
+		livre T1=new livre("coelho","l'archimiste",255);
+		livre T2=new livre(508,"la Tunisie");
+		livre T3=new livre("jk rowiling","harry potter");
+		livre V[]=new livre[3];
+		V[1]=T1;V[2]=T2;V[3]=T3;
+		for(int i=1;i<4;i++)
+		{
+			System.out.println(V[i].gettitre()+V[i].getauteur()+V[i].getnbpages());
+		}
+		
+		// TODO Auto-generated method stub
+
+	}
+
+

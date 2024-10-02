@@ -1,0 +1,22 @@
+package TP3;
+
+public class test_date {
+
+	public static void main(String[] args) {
+		madate d1 = new madate(12, 10, 2022);
+		madate d2 = new madate(30, 12, 2000);
+		madate d3 = new madate(1);
+
+		int x = d1.getj();
+		int y = d2.getm();
+		int z = d3.geta();
+		System.out.println("le nom du point p1 est : " + x);
+		System.out.println(" son abscisse est ;" + y);
+		System.out.println(" son ordonnée est :" + z);
+		d1.setj(5);
+		d2.setm(25);
+		d3.seta(50);
+
+	}
+
+}
